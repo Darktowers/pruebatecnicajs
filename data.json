@@ -1,0 +1,51 @@
+{
+    "Real Endopoint":"http://mockbin.org/bin/8ae4addb-ad28-49eb-95bb-9e7a25e3febf",
+    "id": 1,
+    "name": "ClickDelivery Establishment",
+    "rating": 3,
+    "cuisines": [
+        "Comida Asiática"
+    ],
+    "delivery_price": 5000,
+    "delivery_time": 50,
+    "minimum_order": 6000,
+    "comments": [],
+    "menu": [
+        {
+            "id": 1,
+            "name": "Top products",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Test Top Product 1",
+                    "description": "Top description 1",
+                    "price": 1200
+                },
+                {
+                    "id": 2,
+                    "name": "Test Top Product 2",
+                    "description": "Top description 2",
+                    "price": 7800
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Category 1",
+            "products": [
+                {
+                    "id": 3,
+                    "name": "Product 1",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    "price": 2000
+                },
+                {
+                    "id": 4,
+                    "name": "Product 2",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    "price": 5000
+                }
+            ]
+        }
+    ]
+}
