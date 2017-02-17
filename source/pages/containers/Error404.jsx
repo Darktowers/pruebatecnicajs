@@ -1,22 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
-import { FormattedMessage } from 'react-intl';
 
-import Title from '../../shared/components/Title';
-
-
-function Error404() {
-  return (
-    <section name="home">
-      <Title>
-        Error 404
-      </Title>
-      <Link to="/">
-        <FormattedMessage id="error.404" />
-      </Link>
-    </section>
-  );
+class Error404 extends Component {
+  render() {
+    return (
+      <section name="error404">
+        <h1>Error 404</h1>
+        <Link to="/">
+          Back to home
+        </Link>
+      </section>
+    );
+  }
 }
-
 
 export default Error404;
